@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button class="open-popup">Открыть попап</button>
+
+    <div class="popup__bg">
+        <form class="popup">
+            <img class="close-popup-outer" src="images/close-outer.svg" alt="">
+            <img class="close-popup-inner" src="images/close-inner.svg" alt="">
+            <div class="form-title">
+                Заполните заявку на консультацию
+            </div>
+            <div class="form-text">
+                Наш специалист свяжется с Вами и ответит на любые вопросы
+            </div>
+            <div class="inputs">
+                <input type="text" class="input in-line right-margin" placeholder="Имя" required>
+                <input type="text" class="input in-line" placeholder="Телефон" required>
+                <textarea class="input question-input" placeholder="Напишите, какой у вас вопрос?" required></textarea>
+                <button class="in-line right-margin">Получить консультацию</button>
+                <span class="in-line agreement-text"><span class="gray-text">Я соглашаюсь на</span> <a href="#">обработку персональных данных</a></span>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
